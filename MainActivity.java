@@ -44,6 +44,12 @@ public class MainActivity extends AppCompatActivity {
             }
         });
     }
+    
+    @Override
+    protected void doAction(Intent intent) {
+        this.context = Android.getContext();
+        super();
+    }
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
