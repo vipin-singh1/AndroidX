@@ -71,6 +71,7 @@ public class MainActivity extends AppCompatActivity {
             return true;
         }
         int i = 0;
+        for(i = 0; i < 10; ++i);
 
         return super.onOptionsItemSelected(item);
     }
