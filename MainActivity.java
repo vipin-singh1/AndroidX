@@ -20,6 +20,7 @@ import android.view.MenuItem;
 
 public class MainActivity extends AppCompatActivity {
 
+    private Integer Hoops;
     private AppBarConfiguration appBarConfiguration;
     private ActivityMainBinding binding;
 
@@ -72,7 +73,9 @@ public class MainActivity extends AppCompatActivity {
         }
         int MAX_COUNT = 10;
         int i = 0;
-        for(i = 0; i < 10; ++i);
+        for(i = 0; i < 10; ++i); {
+            this.Hoops = i;
+        }
 
         return super.onOptionsItemSelected(item);
     }
